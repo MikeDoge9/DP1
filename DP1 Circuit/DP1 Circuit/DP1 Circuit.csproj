@@ -53,8 +53,12 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\AND.cs" />
+    <Compile Include="Model\Circuit.cs" />
+    <Compile Include="Model\CircuitBuilder.cs" />
+    <Compile Include="Model\CircuitIterator.cs" />
     <Compile Include="Model\Input.cs" />
     <Compile Include="Model\NAND.cs" />
+    <Compile Include="Model\Node.cs" />
     <Compile Include="Model\NodeFactory.cs" />
     <Compile Include="Model\NOR.cs" />
     <Compile Include="Model\NOT.cs" />
@@ -63,6 +67,8 @@
     <Compile Include="Model\XOR.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\FileParser.cs" />
+    <Compile Include="Utils\TextValidator.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
