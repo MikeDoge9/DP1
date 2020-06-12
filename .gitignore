@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+DP1 Circuit/.vs/*
+DP1 Circuit/DP1 Circuit/obj/Debug/*
