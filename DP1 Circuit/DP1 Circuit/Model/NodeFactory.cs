@@ -13,9 +13,9 @@ namespace DP1_Circuit.Model
 
         public NodeFactory() => nodes = new Dictionary<string, Type>();
 
-        public static void Register(string key, Type c)
+        public static void Register(string key, Type t)
         {
-            nodes.Add(key, c);
+            nodes.Add(key, t);
         }
     }
 }
